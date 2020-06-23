@@ -19,11 +19,62 @@ vertical-align: baseline;
 box-sizing: border-box;
 max-width: 100%;
 font-size: 62.5%;
-
-border: solid grey 1px;*/
+/* border: solid grey 1px; */
+}
 
 /* $ash-gray: #cad2c5ff;
 $dark-sea-green: #84a98cff;
 $hookers-green: #52796fff;
 $dark-slate-gray: #354f52ff;
 $charcoal: #2f3e46ff; */
+
+*{
+    background-color: #cad2c5ff;
+}
+header.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-image: url("succulent-corner.jpg");
+    background-color: #52796fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 5% 19%;
+    border: solid #52796fff 3px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+.home h1{
+    font-size: 10rem;
+    background-color: transparent;
+    color: #354f52ff;
+}
+nav{
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    width: 98%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 1%;
+    background-color: transparent;
+}
+nav a{
+    padding: 1%;
+    width:20%;
+    text-decoration: none;
+    color: #2f3e46ff;
+    background-color: #84a98cff;
+    border: solid #52796fff 3px;
+    border-radius:50%;
+}
+p.home{
+display: flex;
+font-size: 2rem;
+text-align: center;
+width: auto;
+margin: 3% 20%;
+color: #2f3e46ff;
+}
