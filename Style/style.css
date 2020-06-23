@@ -55,10 +55,10 @@ nav{
     display: flex;
     font-size: 4rem;
     align-items: center;
-    width: 98%;
+    width: 96%;
     text-align: center;
     justify-content: space-between;
-    margin: 1%;
+    margin: 3%;
     background-color: transparent;
 }
 nav a{
