@@ -109,11 +109,6 @@ section .header-content{
     font-size: 5.5rem;
     font-weight: bolder;
     text-shadow: 4px 4px  8px #000000;
-    /* background: -webkit-linear-gradient(#eee, #B7E4C7, #52B788);
-    /* -webkit-text-fill-color: transparent; */
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */ 
-   
 }
 #greeting h2{
     font-size: 3.3rem;
@@ -180,7 +175,7 @@ nav #contact{
 /* GALLERY */
 .middle-content{
     width: 80%;
-    margin: 2% auto;
+    margin: 1% auto;
     padding: 1%;
     font-style: italic;
     font-weight: lighter;
@@ -231,7 +226,7 @@ span {
 .row-wrap h3{
     font-weight: bolder;
     font-size: larger;
-    margin: 2%;
+    margin: 1%;
     text-decoration: none;
 }
 
@@ -242,9 +237,165 @@ span {
 
 
 img{
-    /* box-sizing: border-box; */
     height: 45vh;
     width: 95%;
+}
+
+@media(max-width: 800px){
+    section .header-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin: 11% ;
+    }
+    
+   .title{
+       width: 100%;
+   }
+   .title {
+    display: flex;
+    width: 100%;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 7%;
+        margin-top: 5%;
+    }
+
+   .navigation a{
+       width: 60%;
+       font-family: 'Open Sans Condensed', sans-serif;
+      font-size: larger;
+       color: white;
+       padding: 3%;
+   }
+
+   .hero-wrap{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .hero-image{
+       height: 60vh;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+
+   .hero-text{
+       display: none;
+   }
+
+   div .text-wrap{
+       font-size: 1.4rem; 
+       display: flex;     
+   }
+
+   div #greeting{
+       width: 90%;      
+   }
+
+   #greeting h1{
+       width: 105%;
+       font-size: 3rem;
+       margin: 0 auto;
+   }
+
+   .middle-content{
+       width: 80%;
+       padding: 2%;
+       margin: 0% auto;
+   }
+
+   .gallery{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .gallery{
+       display: flex;
+       flex-wrap: wrap;  
+   }
+   
+   .row{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       margin: 2% auto;
+       padding: 2%;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .row-wrap{   
+       width: 80%;
+       margin: 6%;
+       padding: 5%;
+   }
+   
+   .row-wrap h3{
+       font-weight: bolder;
+       font-size: larger;
+       margin: 2%;
+       text-decoration: none;
+   }
+
+   div .row-wrap{
+       box-shadow: 3px 3px 7px 2px rgb(84, 88, 88) ;
+   }
+
+   .row-wrap h3 a{
+       text-decoration: none;
+       color: black;
+   }
+
+   .row-wrap p{
+       font-size: 1.1rem;
+       color: black;
+   }
+
+   .row-wrap h3 a:hover{
+       font-size: larger;
+       font-weight: bolder;
+       color:#1B4332; 
+   }
+
+   footer div{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 2%;
+       margin: 2%;
+       border: 1px solid black;
+   }
+   
+   div .footer-bar{
+       display: flex;
+       align-items: center;
+   }
+
+   nav{
+   width: 70%;
+   margin-top: 4%;
+   margin-bottom: 1%;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   }
+
 }
 
 @media(max-width: 500px) {
@@ -264,13 +415,21 @@ img{
     .title{
         width: 100%;
     }
+    .title {
+        display: flex;
+        width: 100%;
+        font-size: 3rem;
+        justify-content: center;
+        align-self: center;
+        color: white;
+    }
      .navigation{
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         margin-right: 7%;
          margin-top: 5%;
+         width: 90%;
      }
 
     .navigation a{
@@ -395,15 +554,15 @@ img{
     }
 
 } 
+
+
 /*--- ABOUT PAGE STYLE--- */ 
-/* body {
-    border: 1px solid grey;
-} */
+
 .hero-image-about{
     box-shadow: 3px 3px 7px 5px #183004 ;
     background-image: url("https://images.unsplash.com/photo-1464263866732-138a1da44860?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
-    padding: 3%;
-    margin: 2.5%;
+    padding: 2%;
+    margin: 2%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;  
@@ -577,11 +736,6 @@ div .row-a{
     filter:grayscale(90%);
 }
 
-/* #hover:hover {
-    background-image: url("https://images.unsplash.com/photo-1415982029219-1e20a84e72ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80");
-    height: 40vh;
-} */
-
 
 div .row-wrap-a{  
     margin: 1%;
@@ -599,29 +753,57 @@ div .row-wrap-a{
     text-align: justify;
 }
 
+.sign-up{
+    letter-spacing: 0.6rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 @media(max-width: 500px) {
-    *{
-        border: 1px solid grey;
-    }
+
     section .header-content-about{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        width: 100%;
     }
-    div .hero-image-about{
+  
+    .hero-image-about{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
     }
- 
+    .sign-up{
+        letter-spacing: 0.4rem;
+
+    }
+    div .nav-menu{
+        width: 90%;
+        /* margin: 2% auto;     */
+        display: flex;
+        margin-bottom: 2%;
+    }
+    .nav-menu{
+        align-items: center;
+    }
     
+    .nav-bar-about{
+        width: 85%;
+       padding: 5%;
+       margin-bottom: 10%;
+    }
+
+    .title-about h1 {
+        font-size: 3.2rem;
+    }
 
    .middle-content-about{
        width: 80%;
        padding: 1%;
-       margin: 2% auto;
-       
+       margin: 3% auto;
+       padding: 2%;
    }
+
    .middle-content-about h2{
     font-size: 2rem;
    }
@@ -629,8 +811,9 @@ div .row-wrap-a{
    .middle-content-about  p{
     font-size: 1.8rem;
    }
-
+  
    .gallery-about{
+       margin-top: 1%;
        display: flex;
        flex-direction: column;
    }
@@ -688,10 +871,9 @@ div .row-wrap-a{
    }
 
    nav{
-   width: 70%;
-   margin-top: 4%;
-   margin-bottom: 1%;
-   justify-content: space-between;
+   width: 80%;
+    margin: 2% auto;
+   justify-content: center;
    align-items: center;
    text-align: center;
    }
