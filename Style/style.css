@@ -19,7 +19,7 @@ vertical-align: baseline;
 box-sizing: border-box;
 max-width: 100%;
 font-size: 62.5%;
-/* border: solid grey 1px; */
+border: solid grey 1px;
 }
 
 /* $ash-gray: #cad2c5ff;
@@ -95,7 +95,7 @@ section.about{
     flex-wrap: wrap;
 }
 div.bio{
-    padding:5%;
-    width:
-
+    padding:3%;
+    width:16%;
+    margin: 4% auto;
 }
