@@ -85,6 +85,7 @@ header.about{
 }
 .about h1{
     font-size: 8rem;
+    color: #52796fff;
 }
 section.about{
     display: flex;
@@ -96,6 +97,23 @@ section.about{
 }
 div.bio{
     padding:3%;
-    width:16%;
+    width:28%;
     margin: 4% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2f3e46ff;
+    justify-content: space-between;
+}
+.about h2{
+    font-size: 4rem;
+}
+p.about{
+    font-size: 3rem;
+    margin: 0 15%;
+    color: #354f52ff;
+}
+nav.about{
+    justify-content: center;
+    width: auto;
 }
