@@ -78,3 +78,24 @@ width: auto;
 margin: 3% 20%;
 color: #2f3e46ff;
 }
+
+header.about{
+    display:flex;
+    margin:5% 15%;
+}
+.about h1{
+    font-size: 8rem;
+}
+section.about{
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    margin: 10%;
+    width: auto;
+    flex-wrap: wrap;
+}
+div.bio{
+    padding:5%;
+    width:
+
+}
